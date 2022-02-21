@@ -1,0 +1,26 @@
+$colorGreen: #035755;
+$colorOrange: #FA5652;
+.text-orange {
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 35px;
+    color: $colorOrange;
+}
+
+.text-green {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 60px;
+    color: $colorGreen;
+    &-title {
+        font-weight: 700;
+        font-size: 50px;
+        color: $colorGreen;
+    }
+}
+
+.text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 43px;
+}
